@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Yemek Adı -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yemek Adı"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/yemekisim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yemek İsmi"
+        android:inputType="text"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <!-- Yemek Detayı -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yemek Detayı"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtFoodDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detay Giriniz"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="3" />
+
+    <!-- Tarif -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarifi Yazınız:"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/tarif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarifi Buraya Yazınız"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="3" />
+
+    <!-- Ekle Butonu -->
+    <Button
+        android:id="@+id/ekleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:backgroundTint="#D8BFD8"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
